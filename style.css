@@ -1,13 +1,9 @@
-/* .carousel-item{
-
-    position: relative;
+.overlay{
+    filter:brightness(75%);
 }
 
-.carousel-caption{
 
-    position: absolute;
-    top: 30%;
-} */
-
-
-
+footer{
+    height: 40vh;
+    background-color: #221309; 
+}
