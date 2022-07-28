@@ -17,6 +17,16 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+    <style>/* small font size of small mobile */
+      @media only screen and (max-width: 600px) {
+      .carousel-item p  {  font-size: 5px; }
+      .carousel-item h1 { font-size: 10px; }
+      .carousel-item h4 { font-size: 5px; }
+      }
+      </style>
+
+
+
 </head>
 <body>
     
@@ -693,6 +703,20 @@
   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
     <div class="accordion-body">
       <strong>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+    </div>
+  </div>
+</div>
+
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headingOne">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      CSS Model
+    </button>
+  </h2>
+  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <strong>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
     </div>
   </div>
 </div>
