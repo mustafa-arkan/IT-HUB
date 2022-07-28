@@ -1,3 +1,26 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    
+margin: 0;
+
+padding: 0;
+overflow-x: hidden;
+width:100vw;
+
+
+}
+
+
+
+
+
 .overlay{
     filter:brightness(75%);
 }
@@ -7,3 +30,7 @@ footer{
     height: 40vh;
     background-color: #221309; 
 }
+
+
+
+
